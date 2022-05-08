@@ -1,0 +1,12 @@
+exec("./Support_HoleBotHooks.cs");
+exec("./Event_BotCanJump.cs");
+exec("./Event_BotGoToBrick.cs");
+exec("./Event_BotMountVehicles.cs");
+exec("./Event_BotPlayGesture.cs");
+exec("./Event_BotSpawning.cs");
+exec("./Event_BotSpawnLoot.cs");
+exec("./Event_BrickKillBot.cs");
+exec("./Event_OnBotKill.cs");
+exec("./Event_OnBotTouched.cs");
+exec("./Event_FollowPlayer.cs");
+exec("./Event_setBotName.cs");
