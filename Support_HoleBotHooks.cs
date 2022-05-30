@@ -45,6 +45,7 @@ function HoleBotVarArray_New(%bot)
     %object.minigame = getMiniGameFromObject(%bot);
     %object.isHost = %bot.spawnBrick.getGroup().client == %object.minigame.owner;
     %object.brickGroup = %bot.spawnBrick.getGroup();
+    %object.spawnBrick = %bot.spawnBrick;
     //Circumstancial variables.
     %object.avoid = 0;
     %object.noStrafe = 0;
